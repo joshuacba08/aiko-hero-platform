@@ -1,0 +1,14 @@
+<button
+  [class]=" fontColor == 'dark' ? 'button button-primary font-dark' : 'button button-primary font-white' "
+  [disabled]="state"
+  (click)="onClick($event)"
+
+  >
+  {{ title }}
+</button>
+
+
+<!-- <p *ngIf="show; else elseBlock">Mi vieja mula ya no es lo que era</p>
+
+<ng-template #elseBlock>Hola Miguel</ng-template> -->
+
