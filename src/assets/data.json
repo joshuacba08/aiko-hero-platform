@@ -1,0 +1,102 @@
+[
+  {
+    "fname": "juan",
+    "lname": "castelli",
+    "image": "",
+    "position": "",
+    "socialMedia": [
+      {
+        "name": "twitter",
+        "url": ""
+      },
+      {
+        "name": "linkedin",
+        "url": ""
+      },
+      {
+        "name": "github",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "fname": "exequiel",
+    "lname": "tortosa",
+    "image": "",
+    "position": "",
+    "socialMedia": [
+      {
+        "name": "twitter",
+        "url": ""
+      },
+      {
+        "name": "linkedin",
+        "url": ""
+      },
+      {
+        "name": "github",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "fname": "linda maribel",
+    "lname": "del marco",
+    "image": "",
+    "position": "",
+    "socialMedia": [
+      {
+        "name": "twitter",
+        "url": ""
+      },
+      {
+        "name": "linkedin",
+        "url": ""
+      },
+      {
+        "name": "github",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "fname": "leandro",
+    "lname": "Cutuli",
+    "image": "",
+    "position": "",
+    "socialMedia": [
+      {
+        "name": "twitter",
+        "url": ""
+      },
+      {
+        "name": "linkedin",
+        "url": ""
+      },
+      {
+        "name": "github",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "fname": "guillermo",
+    "lname": "flores",
+    "image": "",
+    "position": "",
+    "socialMedia": [
+      {
+        "name": "twitter",
+        "url": ""
+      },
+      {
+        "name": "linkedin",
+        "url": ""
+      },
+      {
+        "name": "github",
+        "url": ""
+      }
+    ]
+  }
+]
