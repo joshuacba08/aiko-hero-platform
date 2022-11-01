@@ -1,0 +1,16 @@
+.dev-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+
+  &__container{
+    display: grid;
+  grid-template-columns: 120px 120px 120px;
+  grid-row: 100px 100px 100px;
+  column-gap: 120px;
+  row-gap: 80px;
+
+
+  }
+}

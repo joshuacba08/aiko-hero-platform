@@ -2,101 +2,143 @@
   {
     "fname": "juan",
     "lname": "castelli",
-    "image": "",
-    "position": "",
+    "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "position": "frontend developer",
     "socialMedia": [
       {
         "name": "twitter",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       },
       {
         "name": "linkedin",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       },
       {
         "name": "github",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       }
     ]
   },
   {
     "fname": "exequiel",
     "lname": "tortosa",
-    "image": "",
-    "position": "",
+    "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "position": "frontend developer",
     "socialMedia": [
       {
         "name": "twitter",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       },
       {
         "name": "linkedin",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       },
       {
         "name": "github",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       }
     ]
   },
   {
     "fname": "linda maribel",
     "lname": "del marco",
-    "image": "",
-    "position": "",
+    "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "position": "frontend developer",
     "socialMedia": [
       {
         "name": "twitter",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       },
       {
         "name": "linkedin",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       },
       {
         "name": "github",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       }
     ]
   },
   {
     "fname": "leandro",
     "lname": "Cutuli",
-    "image": "",
-    "position": "",
+    "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "position": "frontend developer",
     "socialMedia": [
       {
         "name": "twitter",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       },
       {
         "name": "linkedin",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       },
       {
         "name": "github",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       }
     ]
   },
   {
     "fname": "guillermo",
     "lname": "flores",
-    "image": "",
-    "position": "",
+    "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "position": "frontend developer",
     "socialMedia": [
       {
         "name": "twitter",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       },
       {
         "name": "linkedin",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       },
       {
         "name": "github",
-        "url": ""
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+      }
+    ]
+  },
+  {
+    "fname": "NN1",
+    "lname": "NN1",
+    "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "position": "frontend developer",
+    "socialMedia": [
+      {
+        "name": "twitter",
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+      }
+    ]
+  },
+  {
+    "fname": "NN2",
+    "lname": "NN2",
+    "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "position": "frontend developer",
+    "socialMedia": [
+      {
+        "name": "twitter",
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/joshuacba08/aiko-hero-platform"
       }
     ]
   }
+
 ]
+

@@ -6,6 +6,7 @@ import { Dev } from 'src/app/interfaces/dev.models';
   templateUrl: './card-dev.component.html',
   styleUrls: ['./card-dev.component.scss']
 })
+
 export class CardDevComponent implements OnInit {
   @Input() dev:Dev={
     fname:'',
@@ -35,4 +36,19 @@ export class CardDevComponent implements OnInit {
 
   }
 
+  getIcon(  iconName:string ){
+    switch(iconName){
+        case 'twitter':
+           return '../../../src/assets/icons/twitter.png';
+
+        case 'linkedin':
+          return '../../../src/assets/icons/linkedin.png';
+
+        case 'github':
+          return '../../../assets/icons/github.png';
+
+        default:
+          return '';
+        }
+    }
 }

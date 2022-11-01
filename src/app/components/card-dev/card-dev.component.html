@@ -1,8 +1,19 @@
-<article>
+<article class="card-container">
 
-  <div>
-    <p>{{ dev.lname }}</p>
-    <p>{{ dev.fname }}</p>
+  <div class="card-dev">
+    <p class="card-dev__lname">{{ dev.lname }}</p>
+    <p class="card-dev__fname">{{ dev.fname }}</p>
+    <p class="card-dev__position">{{ dev.position }}</p>
+    <!--<div *ngFor="let social of arrayDevs">{{ dev.socialMedia }}</div>-->
+    <div class="card-dev__social-media">
+
+      <a *ngFor="let socialItem of dev.socialMedia" [href]="socialItem.url">
+        <img src="./src/assets/icons/twitter.png" alt="">
+      </a>
+
+    </div>
+    <img class="card-dev__img" [src]="dev.image" alt="" >
+
   </div>
 
 </article>
