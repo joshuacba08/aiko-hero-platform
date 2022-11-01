@@ -77,3 +77,34 @@
     background-color: white;
   }
 }
+
+
+
+//MediasQueries
+
+
+@media  (max-width: 475px){
+
+  .card-container{
+    width: 240px;
+    height: 480px;
+
+  }
+
+  .card-dev{
+    padding: 4px;
+
+    &__img{
+      border: 1px solid black;
+      width: 268px;
+      height: 290px;
+      position: absolute;
+      left: calc(50% - 134px);
+      bottom: -3px;
+
+    }
+  }
+
+
+
+}
