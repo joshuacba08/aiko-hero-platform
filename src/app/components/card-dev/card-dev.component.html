@@ -8,7 +8,9 @@
     <div class="card-dev__social-media">
 
       <a *ngFor="let socialItem of dev.socialMedia" [href]="socialItem.url">
-        <img src="./src/assets/icons/twitter.png" alt="">
+        <ng-icon [name]="getIcon(socialItem.name)"
+          color="black"
+        ></ng-icon>
       </a>
 
     </div>

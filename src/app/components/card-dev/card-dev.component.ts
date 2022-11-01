@@ -39,13 +39,13 @@ export class CardDevComponent implements OnInit {
   getIcon(  iconName:string ){
     switch(iconName){
         case 'twitter':
-           return '../../../src/assets/icons/twitter.png';
+           return 'bootstrapTwitter';
 
         case 'linkedin':
-          return '../../../src/assets/icons/linkedin.png';
+          return 'bootstrapLinkedin';
 
         case 'github':
-          return '../../../assets/icons/github.png';
+          return 'bootstrapGithub';
 
         default:
           return '';

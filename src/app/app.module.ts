@@ -1,4 +1,7 @@
 import { NgModule } from '@angular/core';
+import { NgIconsModule } from '@ng-icons/core';
+import { bootstrapGithub, bootstrapLinkedin, bootstrapTwitter } from '@ng-icons/bootstrap-icons';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
@@ -16,7 +19,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
     BrowserModule,
     SharedModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgIconsModule.withIcons({
+      bootstrapGithub, bootstrapLinkedin, bootstrapTwitter }),
   ],
   providers: [],
   bootstrap: [AppComponent]
