@@ -4,7 +4,8 @@ import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { DevListComponent } from './components/dev-list/dev-list.component';
 import { CardDevComponent } from './components/card-dev/card-dev.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +15,8 @@ import { HttpClientModule } from '@angular/common/http'
   imports: [
     BrowserModule,
     SharedModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
