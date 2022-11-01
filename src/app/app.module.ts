@@ -5,6 +5,7 @@ import { bootstrapGithub, bootstrapLinkedin, bootstrapTwitter } from '@ng-icons/
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
+import { HeroSection } from './components/hero/hero-section.component'
 import { DevListComponent } from './components/dev-list/dev-list.component';
 import { CardDevComponent } from './components/card-dev/card-dev.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -14,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
     AppComponent,
     DevListComponent,
     CardDevComponent,
+    HeroSection,
   ],
   imports: [
     BrowserModule,
@@ -21,7 +23,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
     HttpClientModule,
     BrowserAnimationsModule,
     NgIconsModule.withIcons({
-      bootstrapGithub, bootstrapLinkedin, bootstrapTwitter }),
+    bootstrapGithub, bootstrapLinkedin, bootstrapTwitter }),
+
   ],
   providers: [],
   bootstrap: [AppComponent]
