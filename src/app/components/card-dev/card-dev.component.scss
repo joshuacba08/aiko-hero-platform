@@ -5,11 +5,13 @@
   height: 531px;
   text-align: start;
   position: relative;
-
-
+  transition: all 250ms ease-in-out;
+  padding: 10px;
 }
 .card-container:hover{
   background-color: #F97333;
+  width: 318px;
+  padding: 10px 20px;
 }
 
 .card-dev{
@@ -17,6 +19,7 @@
   text-transform: capitalize;
 
   &__img{
+    border: 1px solid black;
     width: 318px;
     height: 340px;
     position: absolute;
@@ -47,7 +50,7 @@
 }
 
 .card-dev__position{
-  text-align: center;
+  text-align: left;
   padding-top: 10px;
   font-family: 'Ubuntu';
   font-style: normal;
@@ -71,7 +74,7 @@
     height: 36px;
     border-radius: 50%;
     border: 1px solid black;
-
+    transition: all 250ms ease-in-out;
   }
   a:hover{
     background-color: white;
@@ -95,7 +98,6 @@
     padding: 4px;
 
     &__img{
-      border: 1px solid black;
       width: 268px;
       height: 290px;
       position: absolute;

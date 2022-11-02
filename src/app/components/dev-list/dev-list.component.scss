@@ -23,9 +23,10 @@
 
   &__container{
     display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3,318px);
   grid-template-rows: 1fr 1fr 1fr;
   gap: 60px;
+
 
 
   }
@@ -36,28 +37,29 @@
 
 @media  (max-width: 800px){
 
+  .dev-list{
+    margin-top: 80px;
 
-  .dev-list__container{
+    &__container{
       max-width: 100%;
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(2,318px);
       grid-template-rows: 1fr 1fr;
-      gap: 30px;
 
     }
-      .dev-list__title{
-        font-size: 36px;
-        font-weight: 700;
-
-      }
+    &__title{
+      font-size: 36px;
+      font-weight: 700;
+    }
   }
+}
 
   //MediasQueries
 
   @media  (max-width: 475px){
 
     .dev-list{
-
+      margin-top: 80px;
       &__title{
         font-size: 28px;
         font-weight: 600;
