@@ -12,6 +12,7 @@
   background-color: #F97333;
   width: 318px;
   padding: 10px 20px;
+  border: 2px solid black;
 }
 
 .card-dev{
@@ -78,6 +79,10 @@
   }
   a:hover{
     background-color: white;
+    width: 38px;
+    height: 38px;
+    border: 1px solid black;
+    border: 0.5px solid black;
   }
 }
 
@@ -91,7 +96,7 @@
   .card-container{
     width: 240px;
     height: 480px;
-
+    max-width: 268px;
   }
 
   .card-dev{
