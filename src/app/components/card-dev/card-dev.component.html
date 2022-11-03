@@ -7,15 +7,16 @@
     <!--<div *ngFor="let social of arrayDevs">{{ dev.socialMedia }}</div>-->
     <div class="card-dev__social-media">
 
-      <a *ngFor="let socialItem of dev.socialMedia" [href]="socialItem.url">
+      <a *ngFor="let socialItem of dev.socialMedia" [href]="socialItem.url" target="_blank">
         <ng-icon [name]="getIcon(socialItem.name)"
           color="black"
         ></ng-icon>
       </a>
 
     </div>
-    <img class="card-dev__img" [src]="dev.image" alt="" >
-
+    <div class="card-dev__img">
+      <img [src]="dev.image" alt="" >
+    </div>
   </div>
 
 </article>

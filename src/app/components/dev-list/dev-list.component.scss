@@ -1,16 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
 .dev-list{
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 80px;
+  gap: 40px;
+  background-color: #F6EADE;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 36px 0px;
+
+
+  &__title{
+
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+  }
 
   &__container{
     display: grid;
-  grid-template-columns: 120px 120px 120px;
-  grid-row: 100px 100px 100px;
-  column-gap: 120px;
-  row-gap: 80px;
+  grid-template-columns: repeat(3,318px);
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 60px;
+
 
 
   }
+
 }
+
+//MediasQueries
+
+@media  (max-width: 800px){
+
+  .dev-list{
+    margin-top: 80px;
+
+    &__container{
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2,318px);
+      grid-template-rows: 1fr 1fr;
+
+    }
+    &__title{
+      font-size: 36px;
+      font-weight: 700;
+    }
+  }
+}
+
+  //MediasQueries
+
+  @media  (max-width: 475px){
+
+    .dev-list{
+      margin-top: 80px;
+      &__title{
+        font-size: 28px;
+        font-weight: 600;
+
+      }
+      &__container{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+
+
+
+  }

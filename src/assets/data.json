@@ -2,80 +2,80 @@
   {
     "fname": "juan",
     "lname": "castelli",
-    "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "image" : "https://res.cloudinary.com/ionicimagesbank/image/upload/v1667272942/devs/juani_ubr37b.png",
     "position": "frontend developer",
     "socialMedia": [
       {
         "name": "twitter",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://twitter.com"
       },
       {
         "name": "linkedin",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://www.linkedin.com/in/juanicaste23/"
       },
       {
         "name": "github",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://github.com/JuaniCaste23"
       }
     ]
   },
   {
     "fname": "exequiel",
     "lname": "tortosa",
-    "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "image" : "https://res.cloudinary.com/ionicimagesbank/image/upload/v1667272943/devs/exe_pgdt20.png",
     "position": "frontend developer",
     "socialMedia": [
       {
         "name": "twitter",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://twitter.com/exeqi029"
       },
       {
         "name": "linkedin",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://www.linkedin.com/in/exequieltortosa/"
       },
       {
         "name": "github",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://github.com/exe029"
       }
     ]
   },
   {
     "fname": "linda maribel",
-    "lname": "del marco",
+    "lname": "de marco",
     "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "position": "frontend developer",
     "socialMedia": [
       {
         "name": "twitter",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://twitter.com/linnn1787"
       },
       {
         "name": "linkedin",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://www.linkedin.com/in/maribel-demarco/"
       },
       {
         "name": "github",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://github.com/maribeldemarco"
       }
     ]
   },
   {
     "fname": "leandro",
     "lname": "Cutuli",
-    "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "image" : "https://res.cloudinary.com/ionicimagesbank/image/upload/v1667272904/devs/lean_ygxofo.png",
     "position": "frontend developer",
     "socialMedia": [
       {
         "name": "twitter",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://twitter.com/cutuli_leandro"
       },
       {
         "name": "linkedin",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://www.linkedin.com/in/leandro-cutuli-182b5621/"
       },
       {
         "name": "github",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://github.com/leancut"
       }
     ]
   },
@@ -91,54 +91,76 @@
       },
       {
         "name": "linkedin",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://www.linkedin.com/in/guillef33/"
       },
       {
         "name": "github",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://github.com/Guillef33"
       }
     ]
   },
   {
-    "fname": "NN1",
-    "lname": "NN1",
+    "fname": "federico",
+    "lname": "arnaudo",
+    "image" : "https://res.cloudinary.com/ionicimagesbank/image/upload/v1667411789/devs/fede_rncyzt.jpg",
+    "position": "frontend developer",
+    "socialMedia": [
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/ArnaudoJfede?t=-51e2b5EBUaKWeDZnoQJ0w&s=09"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/federico-javier-arnaudo-6b755b238"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Fedecba92"
+      }
+    ]
+  },
+  {
+    "fname": "anderson josué ",
+    "lname": "oroya silva",
+    "image" : "https://res.cloudinary.com/ionicimagesbank/image/upload/v1667415908/devs/1614938222956_tslm0p.jpg",
+    "position": "frontend developer",
+    "socialMedia": [
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/joshuacba08"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/josue-oroya/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/joshuacba08"
+      }
+    ]
+  },
+
+  {
+    "fname": "desire maya ",
+    "lname": "ruiz de valdivia",
     "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "position": "frontend developer",
     "socialMedia": [
       {
         "name": "twitter",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://twitter.com/"
       },
       {
         "name": "linkedin",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://www.linkedin.com/in/desire-maya-ruiz-desi-sussu-5a003014b/"
       },
       {
         "name": "github",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
-      }
-    ]
-  },
-  {
-    "fname": "NN2",
-    "lname": "NN2",
-    "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "position": "frontend developer",
-    "socialMedia": [
-      {
-        "name": "twitter",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/joshuacba08/aiko-hero-platform"
+        "url": "https://github.com/DesSussu"
       }
     ]
   }
+
 
 ]
 

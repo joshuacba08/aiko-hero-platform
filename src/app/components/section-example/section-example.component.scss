@@ -1,28 +1,62 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 
-.section-example-container {
-  position: absolute;
-  width: 1512px;
-  height: 818px;
-  left: 0px;
-  top: 3558px;
+
+.section-example {
+  width: 100%;
+  min-height: 818px;
   background-color:   #EFEFEF;
+  padding-top: 100px;
+  padding-bottom: 100px ;
 }
 
-.carbon-code {
-  position: absolute;
-  width: 663px;
-  height: 336px;
-  left: 142px;
-  top: 3757px;
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+  .container__content{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    margin: 60px auto;
+
+    .carbon-code {
+      min-width: 560px;
+      width: 40%;
+      margin: 0 auto;
+    }
+    .info{
+      width: 40%;
+      margin: 0 auto;
+    }
+
+
+
+
   }
 
+  .compatible{
+    width: 100%;
+    text-align: center;
+  }
+
+  .container__technologies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap:106px;
+
+  }
+
+}
+
+
+
 .title{
-  position: absolute;
   width: 485px;
   height: 186px;
-  left: 871px;
-  top: 3757px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 800;
@@ -33,11 +67,8 @@
 
 
 .subtitle {
-position: absolute;
 width: 462px;
 height: 99px;
-left: 871px;
-top: 3976px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 300;
@@ -47,11 +78,8 @@ color: #000000;
 }
 
 .compatible {
-  position: absolute;
 width: 177px;
 height: 32px;
-left: 660px;
-top: 4171px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -61,28 +89,29 @@ color: #2E2E2E;
 }
 
 .html-icon {
-  position: absolute;
   width: 80px;
   height: 80px;
-  left: 524px;
-  top: 4216px;
-
 }
 
 .react-icon {
-  position: absolute;
   width: 106px;
   height: 106px;
-  left: 696px;
-  top: 4203px;
 }
 
 .angular-icon {
-position: absolute;
 width: 106px;
 height: 106px;
-left: 882px;
-top: 4203px;
 }
 
 
+
+
+@media screen and (max-width:1078){
+  .container__content{
+    justify-content: center;
+
+    .info{
+      text-align: center;
+    }
+  }
+}
