@@ -1,0 +1,29 @@
+.footer {
+  background-color: #faf5ef;
+
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 150px 130px;
+  }
+
+  .footer__bottom {
+    display: flex;
+    justify-content: center;
+
+    .footer__span {
+      display: block;
+      margin-bottom: 30px;
+      height: 1px;
+      width: 60%;
+      border: 0;
+      background: black;
+    }
+    .footer__copyright {
+      width: 233px;
+      height: 16px;
+      margin-top: 30px;
+    }
+  }
+}
