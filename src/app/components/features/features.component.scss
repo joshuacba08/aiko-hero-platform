@@ -1,4 +1,5 @@
 $roboto: 'Roboto';
+$border-black: #2E2E2E;
 $size-p: 20px;
 $line-height-p: 30px;
 
@@ -10,7 +11,7 @@ $line-height-p: 30px;
 }
 
 .features-container {
-  width: 1500px;
+  max-width: 1450px;
   height: 1040px;
   margin: auto;
   background-color: #F6EADE;
@@ -27,7 +28,7 @@ $line-height-p: 30px;
     font-size: 40px;
     line-height: 60px;
     font-weight: bold;
-    border-right: 1px solid #2E2E2E;
+    border-right: 1px solid $border-black;
   }
   p{
     width: 500px;
@@ -70,6 +71,7 @@ $line-height-p: 30px;
 }
 
 .features-box:hover {
-  border: 3px solid #2E2E2E;
+  border: 3px solid $border-black;
   box-shadow: -4px 6px 2px 2px var(--just-black);
+  transition: all 200ms ease-in-out;
 }
