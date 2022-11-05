@@ -10,14 +10,19 @@ import { DevListComponent } from './components/dev-list/dev-list.component';
 import { CardDevComponent } from './components/card-dev/card-dev.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SectionExampleComponent } from './components/section-example/section-example.component'
+import { FeaturesComponent } from './components/features/features.component'
+import { SectionExampleComponent } from './components/section-example/section-example.component';
+import { FooterComponent } from './components/footer/footer.component'
+
 @NgModule({
   declarations: [
     AppComponent,
     DevListComponent,
     HeroSection,
+    FeaturesComponent,
     CardDevComponent,
     SectionExampleComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,7 +31,6 @@ import { SectionExampleComponent } from './components/section-example/section-ex
     BrowserAnimationsModule,
     NgIconsModule.withIcons({
     bootstrapGithub, bootstrapLinkedin, bootstrapTwitter }),
-
   ],
   providers: [],
   bootstrap: [AppComponent]
