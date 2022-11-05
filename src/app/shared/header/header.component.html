@@ -176,12 +176,23 @@
       </defs>
     </svg>
 
-    <ul class="header-container__links">
+    <button button mat-raised-button 
+    class="header-button" 
+    (click)="setActive()"
+    >
+      <mat-icon>menu</mat-icon>
+    </button>
+
+    <ul class="header-container__links "
+    [ngClass]="{'header-container__links--active':active}"
+    >
       <li *ngFor="let link of links">
         <a>{{ link.name | titlecase }}</a>
       </li>
     </ul>
 
-    <app-button title="Invítanos un café"></app-button>
+    <app-button title="Invítanos un café" class="header-container__links "
+    [ngClass]="{'header-container__links--active':active}" 
+    style=""></app-button>
   </div>
 </header>
