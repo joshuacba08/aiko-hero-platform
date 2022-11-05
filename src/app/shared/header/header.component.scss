@@ -1,5 +1,6 @@
 .header{
   padding: 20px 15px;
+  background-color: antiquewhite;
 }
 
 .header-container{
@@ -8,6 +9,7 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  flex-flow: row wrap;
   &__logo{
 
   }
@@ -17,12 +19,79 @@
     gap: 30px;
     li{
       list-style: none;
-      a{
-        cursor: pointer;
-      }
+        @media screen and (max-width:940px) {
+          pointer-events: auto;
+        }
+
+        a{
+          cursor: pointer;
+        }
+    }
+
+    @media screen and (max-width:940px) {
+        width:100%;
+        height:0vh;
+        margin-top: -30px;
+        margin-bottom: -30px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        align-self: end;
+        overflow: hidden;
+        pointer-events: none;
+        transition: all .5s ease;
+        &--active{
+          height:185px;
+          pointer-events: auto;
+        }
     }
   }
+  @media screen and (max-width:940px) {
+    max-height: 250px;
+  }
+  
+  .header-button{
+    align-items: center;
+    border: 2px solid var(--just-black);
+    cursor: pointer;
+    font-weight: 700;
+    display: none;
+    margin-left: 20px;
+  
+@media screen and (max-width:940px) {
+  display: flex;
+  align-self: start;
+}
+}
 
+  .header-button:disabled{
+    opacity: 50%;
+  }
+  
+  .header-button{
+    background-color: var(--primary-color);
+  }
+  
+  .header-font-white{
+    color: var(--just-white);
+  }
+  
+  .header-font-dark{
+    color: var(--just-back);
+  }
+  
+  .header-button:hover{
+  box-shadow: 2px 2px 2px 2px var(--just-black);
+  }
+  
+  .header-button:active {
+    box-shadow: -1px -1px 1.5px 1.5px var(--just-black);
+  }
+
+}
+.mat-raised-button {
+  color: white;
 }
 
 
