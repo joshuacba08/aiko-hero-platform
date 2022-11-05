@@ -76,3 +76,19 @@ $line-height-p: 30px;
   box-shadow: -4px 6px 2px 2px var(--just-black);
   transition: all 200ms ease-in-out;
 }
+
+//Para dispositivos Mobile
+@media only screen and (max-width: 880px) { 
+    .features-container {
+     
+    }
+
+    .features-box {
+      
+    }
+
+
+
+
+
+}
