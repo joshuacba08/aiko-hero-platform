@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
       name:'inicio'
     },
     {
-      path:'doc',
+      path:'document',
       name:'documentación'
     },
     {

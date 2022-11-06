@@ -1,0 +1,32 @@
+.main{
+  display: flex;
+}
+
+.aside{
+  width: 200px;
+  height: 800px;
+  background-color: #F6EADE;
+  padding: 30px 20px;
+  gap: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  li{
+    list-style: none;
+    a{
+      text-decoration: none;
+      font-weight: 700;
+      color:#2E2E2E;
+    }
+  };
+
+}
+
+.section-container{
+  background-color: #EFEFEF;
+  padding: 30px 20px;
+  width: calc(100% - 200px);
+}
