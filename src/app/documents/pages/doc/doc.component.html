@@ -1,0 +1,47 @@
+<main class="main">
+
+  <aside class="aside">
+    <li>
+      <a [routerLink]="['getstarted']">Empezar</a>
+    </li>
+    <li>
+      <a [routerLink]="['customized']">Personalizar</a>
+    </li>
+    <li>
+      <a [routerLink]="['methods']">Métodos</a>
+    </li>
+  </aside>
+
+  <section class="section-container">
+    <router-outlet></router-outlet>
+  </section>
+
+
+
+</main>
+
+
+<!-- <mat-drawer-container class="drawer-container" fullscreen>
+
+  <mat-sidenav #sidenav>
+    <mat-toolbar>
+      <button mat-icon-button
+        (click)="sidenav.toggle()"
+      >close</button>
+    </mat-toolbar>
+
+    <mat-nav-list>
+      <a [routerLink]="['getstarted']">Empezar</a>
+      <a [routerLink]="['customized']">Personalizar</a>
+      <a [routerLink]="['methods']">Métodos</a>
+    </mat-nav-list>
+
+
+  </mat-sidenav>
+
+</mat-drawer-container> -->
+
+
+
+
+
