@@ -1,13 +1,32 @@
+.drawer-container{
+
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+}
+
+.aside-expansion{
+  background: none;
+  box-shadow: none;
+  .mat-expansion-panel-header-title{
+    font-weight: 700;
+  }
+
+  .mat-list-base .mat-list-option{
+    font-size: 14px;
+  }
+
+}
+
 .main{
   display: flex;
 }
 
 .aside{
-  width: 200px;
-  height: 800px;
+  width: 265px;
+  min-height: 800px;
   background-color: #F6EADE;
-  padding: 30px 20px;
-  gap: 20px;
+  padding: 30px 0px;
 
   display: flex;
   flex-direction: column;

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import {MatButtonModule} from '@angular/material/button';
+import {MatExpansionModule} from '@angular/material/expansion';
 import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
@@ -14,6 +15,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   exports: [
     CommonModule,
     MatButtonModule,
+    MatExpansionModule,
     MatIconModule,
     MatListModule,
     MatProgressSpinnerModule,
