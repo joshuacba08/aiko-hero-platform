@@ -23,9 +23,11 @@
 
 .button:hover{
 box-shadow: 2px 2px 2px 2px var(--just-black);
+transition: all .5s ease;
 }
 
 .button:active {
   box-shadow: -1px -1px 1.5px 1.5px var(--just-black);
+  transition: all .5s ease;
 }
 

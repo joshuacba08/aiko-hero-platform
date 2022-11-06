@@ -21,6 +21,7 @@
       list-style: none;
         @media screen and (max-width:940px) {
           pointer-events: auto;
+          overflow: hidden;
         }
 
         a{
@@ -41,14 +42,17 @@
         overflow: hidden;
         pointer-events: none;
         transition: all .5s ease;
+        overflow: hidden;
         &--active{
           height:185px;
           pointer-events: auto;
+          overflow: hidden;
         }
     }
   }
   @media screen and (max-width:940px) {
     max-height: 250px;
+    overflow: hidden;
   }
   
   .header-button{
@@ -62,6 +66,7 @@
 @media screen and (max-width:940px) {
   display: flex;
   align-self: start;
+  overflow: hidden;
 }
 }
 
