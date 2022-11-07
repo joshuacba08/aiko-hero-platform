@@ -17,6 +17,40 @@
         color: #f97333;
       }
     }
+
+    .social-icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      svg {
+        margin-bottom: 20px;
+      }
+      .social-icons__icons {
+        .social-icons__item {
+          display: inline;
+          list-style: none;
+          padding: 20px 15px;
+          margin-top: 20px;
+          align-items: center;
+
+          a {
+            padding: 8px;
+            border-radius: 50%;
+            border: 1px solid black;
+            transition: all 250ms ease-in-out;
+
+            &:hover {
+              background-color: white;
+              width: 38px;
+              height: 38px;
+              border: 1px solid black;
+              border: 0.5px solid black;
+            }
+          }
+        }
+      }
+    }
   }
 
   .footer__bottom {
