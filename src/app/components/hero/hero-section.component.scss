@@ -10,18 +10,20 @@ $medium: 900px;
   margin: 0 auto;
   height: 600px;
 
-  // Como hago esto con los viewports mobile?
-  @media screen and (min-width: $small) and (max-width: $medium) {
+  @media screen and (max-width:940px) {
     max-width: 300px;
-    flex-direction: column;
-    height: auto;
-  }
+    align-self: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 985px;
+    max-height: 985px;
+}
+
 
   &__columns {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 300px;
 
     @media screen and (min-width: $small) and (max-width: $medium) {
       height: 400px;
@@ -31,9 +33,9 @@ $medium: 900px;
     img {
       width: 800px;
       border-radius: 8px;
-
-      @media screen and (min-width: $small) and (max-width: $medium) {
-        width: 600px;
+      margin: 10px;   
+      @media screen and (max-width:940px) {
+      margin-left:-198px
       }
     }
 
@@ -41,20 +43,18 @@ $medium: 900px;
       font-size: 60px;
       font-weight: 800;
       line-height: 70px;
-
-      @media screen and (min-width: $small) and (max-width: $medium) {
-        font-size: 30px;
-        line-height: 40px;
-      }
+      margin: 5px;
     }
-
-
 
     p {
       font-size: 20px;
       font-weight: 300;
       line-height: 33px;
+      margin: 5px;
     }
+    @media screen and (max-width:940px) {
+      justify-content: center;
+    } 
   }
 
 }
