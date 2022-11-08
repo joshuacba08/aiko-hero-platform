@@ -4,7 +4,6 @@ $small: 300px;
 $medium: 900px;
 
 
-
 .hero-container {
   display: flex;
   justify-content: space-between;
@@ -27,8 +26,20 @@ $medium: 900px;
 
     img {
       width: 800px;
-      box-shadow: 0px 10px 10px -10px black;
+      // box-shadow: 0px 4px 4px 0px #00000040;
       border-radius: 8px;
+    }
+
+    h1 {
+      font-size: 60px;
+      font-weight: 800;
+      line-height: 70px;
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 33px;
     }
   }
 
