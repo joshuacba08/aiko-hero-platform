@@ -8,7 +8,7 @@ import { Dev } from '../interfaces/dev.models';
 })
 export class DataService {
 
-  url = 'https://run.mocky.io/v3/2746281b-76e8-4949-9db6-aa77a0d1c09d';
+  url = 'https://run.mocky.io/v3/91ea3270-ca59-4d42-a4ce-47175d94b1d8';
 
   constructor( private htttpClient:HttpClient ){}
 
