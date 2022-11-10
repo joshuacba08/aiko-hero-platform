@@ -6,7 +6,7 @@ import { TeamComponent } from './pages/team/team.component';
 
 const routes: Routes =[
   {
-    path:'',
+    path:'home',
     component: HomeComponent
   },
   {
