@@ -11,7 +11,10 @@
   //max-width: 1200px;
   margin: 0 auto;
   padding: 46px 0px;
-
+  @media screen and (max-width:940px) {
+    display: flex;
+    margin-top: 50px;
+          }
 
 
   &__title{
