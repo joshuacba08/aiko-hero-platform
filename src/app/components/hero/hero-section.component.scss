@@ -35,7 +35,9 @@ $medium: 900px;
       border-radius: 8px;
       margin: 10px;   
       @media screen and (max-width:940px) {
-      margin-left:-198px
+align-self: start;
+      margin-left:-250px;
+      width: 940px;
       }
     }
 
