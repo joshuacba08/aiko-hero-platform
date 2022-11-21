@@ -42,7 +42,7 @@
   {
     "fname": "linda maribel",
     "lname": "de marco",
-    "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "image" : "https://res.cloudinary.com/ionicimagesbank/image/upload/v1667831344/devs/maribel_uimxgq.jpg",
     "position": "frontend developer",
     "socialMedia": [
       {
@@ -82,7 +82,7 @@
   {
     "fname": "guillermo",
     "lname": "flores",
-    "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "image" : "https://res.cloudinary.com/ionicimagesbank/image/upload/v1667831324/devs/guillermoFlores_myf80d.jpg",
     "position": "frontend developer",
     "socialMedia": [
       {
@@ -123,7 +123,7 @@
     "fname": "anderson josué ",
     "lname": "oroya silva",
     "image" : "https://res.cloudinary.com/ionicimagesbank/image/upload/v1667415908/devs/1614938222956_tslm0p.jpg",
-    "position": "frontend developer",
+    "position": "full stack developer",
     "socialMedia": [
       {
         "name": "twitter",
@@ -138,29 +138,7 @@
         "url": "https://github.com/joshuacba08"
       }
     ]
-  },
-
-  {
-    "fname": "desire maya ",
-    "lname": "ruiz de valdivia",
-    "image" : "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "position": "frontend developer",
-    "socialMedia": [
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/desire-maya-ruiz-desi-sussu-5a003014b/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/DesSussu"
-      }
-    ]
   }
-
 
 ]
 

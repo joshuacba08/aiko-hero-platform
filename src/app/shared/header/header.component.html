@@ -1,5 +1,6 @@
 <header class="header">
   <div class="header-container">
+    <a routerLink="/home" routerLinkActive="active"  >
     <svg
       class="header-container__logo"
       width="147"
@@ -8,6 +9,7 @@
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
+    
       <g filter="url(#filter0_d_0_1)">
         <rect x="4" width="32" height="33" rx="3" fill="#2E2E2E" />
       </g>
@@ -174,14 +176,27 @@
           />
         </filter>
       </defs>
+   
     </svg>
+  </a>
 
-    <ul class="header-container__links">
+    <button button mat-raised-button
+    class="header-button"
+    (click)="setActive()"
+    >
+      <mat-icon>menu</mat-icon>
+    </button>
+
+    <ul class="header-container__links "
+    [ngClass]="{'header-container__links--active':active}"
+    >
       <li *ngFor="let link of links">
-        <a>{{ link.name | titlecase }}</a>
+        <a [routerLink]="[link.path]" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">{{ link.name | titlecase }}</a>
       </li>
     </ul>
 
-    <app-button title="Invítanos un café"></app-button>
+    <app-button title="Invítanos un café" class="header-container__component "
+    [ngClass]="{'header-container__component--active':active}"
+    style=""></app-button>
   </div>
 </header>

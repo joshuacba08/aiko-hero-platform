@@ -1,8 +1,5 @@
-
-
 $small: 300px;
 $medium: 900px;
-
 
 
 .hero-container {
@@ -13,23 +10,51 @@ $medium: 900px;
   margin: 0 auto;
   height: 600px;
 
-  // Como hago esto con los viewports mobile?
-  @media screen and (min-width: $small) and (max-width: $medium) {
-      max-width: 300px;
-      flex-direction: column;
-  }
+  @media screen and (max-width:940px) {
+    max-width: 300px;
+    align-self: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 985px;
+    max-height: 985px;
+}
+
 
   &__columns {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 300px;
+
+    @media screen and (min-width: $small) and (max-width: $medium) {
+      height: 400px;
+      padding: 40px 0px;
+    }
 
     img {
       width: 800px;
-      box-shadow: 0px 10px 10px -10px black;
       border-radius: 8px;
+      margin: 10px;   
+      @media screen and (max-width:940px) {
+      margin-left:-198px
+      }
     }
+
+    h1 {
+      font-size: 60px;
+      font-weight: 800;
+      line-height: 70px;
+      margin: 5px;
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 33px;
+      margin: 5px;
+    }
+    @media screen and (max-width:940px) {
+      justify-content: center;
+    } 
   }
 
 }

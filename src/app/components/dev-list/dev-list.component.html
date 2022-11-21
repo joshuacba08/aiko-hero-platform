@@ -2,10 +2,13 @@
 
   <h2 class="dev-list__title">¿Quienes hicieron posible esta herramienta?</h2>
 
+  <mat-spinner
+    color="accent"
+    *ngIf="arrayDevs.length === 0"
+  ></mat-spinner>
+
   <div class="dev-list__container">
-
     <app-card-dev *ngFor="let dev of arrayDevs" [dev]="dev"></app-card-dev>
-
   </div>
 
 </section>

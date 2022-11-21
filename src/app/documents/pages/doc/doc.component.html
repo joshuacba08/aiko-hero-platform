@@ -1,0 +1,93 @@
+<main class="main">
+
+  <aside class="aside">
+    <mat-expansion-panel expanded [routerLink]="['getstarted']" class="aside-expansion">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Empezar
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <mat-selection-list #shoes [multiple]="false">
+          <mat-list-option>
+            Instalación
+          </mat-list-option>
+        <mat-list-option >
+          Preparación del hero
+        </mat-list-option>
+        <mat-list-option >
+          Iniciar un instancia del hero
+        </mat-list-option>
+        <mat-list-option >
+          Configuraciones básicas
+        </mat-list-option>
+      </mat-selection-list>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel expanded [routerLink]="['customized']" class="aside-expansion">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Personalizar
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <mat-selection-list #shoes [multiple]="false">
+        <mat-list-option >
+          Personalización de la imagen
+        </mat-list-option>
+        <mat-list-option >
+          Efectos de imagen
+        </mat-list-option>
+        <mat-list-option >
+          Configuración de acción
+        </mat-list-option>
+      </mat-selection-list>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel expanded [routerLink]="['customized']" class="aside-expansion">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Métodos
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <mat-selection-list #shoes [multiple]="false">
+        <mat-list-option >
+          Crear más de un Hero
+        </mat-list-option>
+        <mat-list-option >
+          Destruir Hero
+        </mat-list-option>
+        <mat-list-option >
+          Configuración de acción
+        </mat-list-option>
+      </mat-selection-list>
+    </mat-expansion-panel>
+
+  </aside>
+
+  <section class="section-container">
+    <router-outlet></router-outlet>
+  </section>
+
+
+
+</main>
+
+
+<!-- <mat-drawer-container class="drawer-container" autosize>
+  <mat-sidenav #sidenav mode="side" opened>
+    <mat-toolbar>
+      <button mat-icon-button
+        (click)="sidenav.toggle()"
+      >close</button>
+    </mat-toolbar>
+    <mat-nav-list>
+      <a [routerLink]="['getstarted']">Empezar</a>
+      <a [routerLink]="['customized']">Personalizar</a>
+      <a [routerLink]="['methods']">Métodos</a>
+    </mat-nav-list>
+  </mat-sidenav>
+</mat-drawer-container> -->
+
+
+
+
+
