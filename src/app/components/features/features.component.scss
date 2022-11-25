@@ -54,9 +54,9 @@ html {
 .features-box {
   padding: 6%;
   transition: 200ms;
+  max-width: 400px;
   article img {
     width: 13%;
-    height: 13%;
   }
   article h3{
     margin-top: 20px;
@@ -82,9 +82,13 @@ html {
       display: flex;
       padding: auto;
       h2{
-        font-size: 2.0rem;
+        font-size: 2.7rem;
+        line-height: 3.0rem;
         border-bottom: none;
         border-right: 1px solid $border-black;
+      }
+      p{
+        margin-left: 70px;
       }
 
     }
@@ -98,7 +102,19 @@ html {
 
     .features-box {
       margin: auto;
-      width: 500px;
+      padding: 35px;
+      article img {
+        width: 18%;
+      }
+      article h3{
+        margin-top: 30px;
+        font-size: 2.0rem;
+
+      }
+      article p{
+        margin-top: 20px;
+        font-size: 1.4rem;
+      }
     }
 
 
