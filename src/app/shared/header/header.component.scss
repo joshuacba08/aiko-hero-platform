@@ -8,6 +8,7 @@ a{
   text-decoration: none;
   font-weight: 700;
   color: var(--just-black);
+  transition: all 300ms ease-in-out;
 }
 
 a:hover{
@@ -37,7 +38,7 @@ a:hover{
         @media screen and (max-width:940px) {
           pointer-events: auto;
           overflow: hidden;
-        }      
+        }
     }
 
     @media screen and (max-width:940px) {
@@ -53,7 +54,6 @@ a:hover{
         align-self: end;
         overflow: hidden;
         pointer-events: none;
-        transition: all .5s ease;
         overflow: hidden;
         &--active{
           height:250px;
@@ -65,7 +65,7 @@ a:hover{
   @media screen and (max-width:940px) {
     overflow: hidden;
   }
-  
+
 &__component{
   height:4vh;
   @media screen and (max-width:940px) {
@@ -97,40 +97,42 @@ a:hover{
     font-weight: 700;
     display: none;
     margin-left: 20px;
-  
-@media screen and (max-width:940px) {
-  display: flex;
-  align-self: start;
-  overflow: hidden;
-  margin: 5px;
-}
-}
+
+    @media screen and (max-width:940px) {
+      display: flex;
+      align-self: start;
+      overflow: hidden;
+      margin: 5px;
+    }
+  }
 
   .header-button:disabled{
     opacity: 50%;
   }
-  
+
   .header-button{
     background-color: var(--primary-color);
+    transition: all 300ms ease-in-out;
   }
-  
+
   .header-font-white{
     color: var(--just-white);
   }
-  
+
   .header-font-dark{
     color: var(--just-back);
   }
-  
+
   .header-button:hover{
   box-shadow: 2px 2px 2px 2px var(--just-black);
   }
-  
+
   .header-button:active {
     box-shadow: -1px -1px 1.5px 1.5px var(--just-black);
   }
 
 }
+
 .mat-raised-button {
   color: white;
 }
@@ -138,6 +140,7 @@ a:hover{
 .active {
   color: var(--primary-color);
 }
+
 .active a {
   color: var(--primary-color);
 }

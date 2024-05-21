@@ -11,14 +11,13 @@ $line-height-p: 30px;
 }
 
 .features-container {
-  max-width: 1450px;
   height: 820px;
   margin: auto;
   background-color: #F6EADE;
   @media screen and (max-width:940px) {
     flex-wrap: wrap;
     height: 1600px;
-          }
+    }
 }
 
 .features-container__text {
@@ -51,8 +50,8 @@ $line-height-p: 30px;
   top: 200px;
   @media screen and (max-width:940px) {
     flex-direction: column;
-          }
-  
+    }
+
 }
 
 .features-box {
@@ -86,13 +85,13 @@ $line-height-p: 30px;
 }
 
 //Para dispositivos Mobile
-@media only screen and (max-width: 880px) { 
+@media only screen and (max-width: 880px) {
     .features-container {
-     
+
     }
 
     .features-box {
-      
+
     }
 
 

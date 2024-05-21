@@ -13,8 +13,14 @@
 
     .footer__title {
       font-weight: 600;
-      span {
+      a {
+        text-decoration: none;
         color: #f97333;
+        transition: all 200ms ease-in-out;
+        cursor: pointer;
+      }
+      a:hover {
+        color: #704d3d;
       }
     }
 
@@ -24,35 +30,34 @@
       align-items: center;
       width: 300px;
 
-      svg {
-        margin-bottom: 20px;
-      }
       .social-icons__icons {
+        margin-top: 40px;
         .social-icons__item {
           display: inline;
           list-style: none;
           padding: 15px 15px;
-          margin-top: 20px;
 
           a {
             display: inline-flex;
             justify-content: center;
             align-items: center;
-
-            height: 30px;
-            width: 30px;
-            padding: 8px;
+            color: black;
+            height: 50px;
+            width: 50px;
             border-radius: 50%;
             border: 1px solid black;
-            //transition: all 250ms ease-in-out;
+            transition: all 100ms ease-in-out;
+            cursor: pointer;
 
-            // &:hover {
-            //   background-color: white;
-            //   width: 38px;
-            //   height: 38px;
-            //   border: 1px solid black;
-            //   border: 0.5px solid black;
-            // }
+            &:hover {
+              border: 3px solid #f97333;
+              svg {
+                fill: #f97333;
+              }
+            }
+
+
+
           }
         }
       }
